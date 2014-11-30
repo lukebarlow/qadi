@@ -33,9 +33,7 @@ testName = (text) ->
 # which can be clicked to toggle the state of the test
 setUpTests = ->
     # find any LI items in
-    tests = d3.select('#qadi').selectAll('li')
-
-    #if tests[0] and tests[0].length
+    tests = d3.selectAll('#qadi li')
 
     all = qadiCookies.getAll(section = section)
 

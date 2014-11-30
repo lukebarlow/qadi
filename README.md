@@ -13,4 +13,4 @@ npm install # get all the relevant modules
 node server.js
 ```
 
-and then hit localhost:8089 in your browser
+and then hit localhost:8089 in your browser.
