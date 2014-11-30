@@ -23,7 +23,7 @@ getSection = (url) ->
 section = getSection(document.location.href)
 
 testName = (text) ->
-    text = text.replace(/[\.\,\(\)\r\n]/g,'')
+    text = text.replace(/[^\w\r\n]/g,'')
     text = text.replace(/\ +/g,'_')
     text = encodeURIComponent(text)
     return section + '.' + text
